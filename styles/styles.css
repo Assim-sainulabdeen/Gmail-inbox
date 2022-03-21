@@ -79,12 +79,15 @@ h1{
 	margin-left: 2px;
 	border-radius: 5px;
 	border: none;
-	box-shadow: 0px 1px 2px;
 	background: url("../assets/icons/search.png") no-repeat left center,
 	url("../assets/icons/tune.png") no-repeat right center;
 	background-size: 20px;
 	background-position-x: 1%, 97%;
 	background-color: #eeeeee;
+}
+
+.search:focus{
+	outline:none;
 }
 
 #active {
@@ -212,6 +215,7 @@ hr {
 .fa-pencil {
 	background-color: white;
 	padding-right: 10px;
+	font-size: 15px;
 }
 
 .fa-pencil:hover{
