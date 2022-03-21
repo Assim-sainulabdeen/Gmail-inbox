@@ -377,6 +377,12 @@ p{
 	background-color: rgba(227, 230, 249, 0.5)
 }
 
+.fa-star{
+	color: grey;
+}
+.fa-star:hover, .fa-square:hover{
+	color: black;
+}
 .mail:hover{
 	cursor: pointer;
 	box-shadow: 0 0 5px rgba(202, 196, 194, 1);
